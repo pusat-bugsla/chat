@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Never Jerk Alone</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="https://fbgresik.github.io/colmex/media/css/whatsapp.png">
+<style>
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600");
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+@import url(//fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
+
+body {
+  margin: 0; }
+  
+        .lasvegas {
+            font-family: "Allerta Stencil , Sans-serif";
+            font-weight: bold;
+            font-size: 40px;
+            border: none;
+            padding-bottom:10px;
+            padding-top:50px;
+            color: #fff;
+            text-align: center;
+            text-shadow: 1px 5px 4px rgba(0, 0, 0, .3), 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #228b22, 0 0 70px #228b22, 0 0 80px #228b22, 0 0 100px #228b22;
+        }
+        
+        .lasvegas span {
+            animation: blink .3s infinite alternate;
+        }
+        
+        .lasvegas span.delay {
+            animation-duration: 6s;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            cubic-bezier(0.5, 0.2, 0.3, 1.0)
+        }
+        
+        @keyframes blink {
+            0% {}
+            50% {}
+            60% {
+                text-shadow: 0 0 2px rgba(255, 255, 255, .1), 0 0 10px rgba(255, 255, 255, .4);
+                text-stroke: 2px rgba(255, 255, 255, 0.05);
+            }
+            70% {
+                text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #228b22, 0 0 70px #ff00de, 0 0 80px #228b22, 0 0 100px #228b22;
+            }
+            80% {
+                text-shadow: 0 0 2px rgba(255, 255, 255, .1), 0 0 10px rgba(255, 255, 255, .4);
+                text-stroke: 2px rgba(255, 255, 255, 0.05);
+            }
+            100% {
+                text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #228b22, 0 0 70px #228b22, 0 0 80px #228b22, 0 0 100px #228b22;
+            }
+        }
+        
+#overlay {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -9;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(https://fbgresik.github.io/colmex/media/img/1w.jpg) no-repeat;
+}
+
+.icon-whatsapp-1 {
+    display: block;
+    background-image: url("https://fbgresik.github.io/colmex/media/css/whatsapp.png");
+    background-size: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto; }
+
+@media screen and (max-width: 792px) {
+.icon-whatsapp-1 {
+      width: 70px;
+      height: 70px; }
+}
+.mybutton {
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  
+.btn {
+  border-radius: 35px;
+  padding: 23px 65px;
+  display: block;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0 auto; }
+  
+.btn-main {
+  background-color: #23c660;
+  color: #fff;
+  border: 2px solid #62e693;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-animation: pulse1 2s linear infinite;
+  animation: pulse1 2s linear infinite;
+  transition: all 0.2s ease-in-out; }
+  .btn-main .icon-whatsapp-2 {
+    display: inline-block;
+    background-image: url("https://fbgresik.github.io/colmex/media/css/whatsapp_outline.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    margin-right: 10px; }
+  .btn-main:hover {
+    background-color: #4be083; } 
+    
+@-webkit-keyframes pulse1 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  40% {
+    box-shadow: 0 0 0 40px rgba(37, 211, 102, 0), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  80% {
+    box-shadow: 0 0 0 40px rgba(37, 211, 102, 0), 0 0 0 30px rgba(37, 211, 102, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 0 0 30px rgba(37, 211, 102, 0); } }
+
+@keyframes pulse1 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  40% {
+    box-shadow: 0 0 0 40px rgba(37, 211, 102, 0), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  80% {
+    box-shadow: 0 0 0 40px rgba(37, 211, 102, 0), 0 0 0 30px rgba(37, 211, 102, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 0 0 30px rgba(37, 211, 102, 0); } }
+
+@-webkit-keyframes pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5), 0 0 0 0 rgba(255, 255, 255, 0.5); }
+  40% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 255, 255, 0.5); }
+  80% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 20px rgba(255, 255, 255, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 20px rgba(255, 255, 255, 0); } }
+
+@keyframes pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5), 0 0 0 0 rgba(255, 255, 255, 0.5); }
+  40% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 255, 255, 0.5); }
+  80% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 20px rgba(255, 255, 255, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 20px rgba(255, 255, 255, 0); } }
+
+@-webkit-keyframes pulse3 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  40% {
+    box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  80% {
+    box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 0 0 20px rgba(37, 211, 102, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 0 0 20px rgba(37, 211, 102, 0); } }
+
+@keyframes pulse3 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  40% {
+    box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  80% {
+    box-shadow: 0 0 0 20px rgba(37, 211, 102, 0), 0 0 0 20px rgba(37, 211, 102, 0); }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0), 0 0 0 20px rgba(37, 211, 102, 0); } }
+    
+@media screen and (max-width: 792px) {
+  .btn-main {
+    -webkit-animation: pulse3 2s linear infinite;
+    animation: pulse3 2s linear infinite; } }
+
+@media screen and (max-width: 430px) {
+  .btn {
+    font-size: 16px; } }
+
+
+#abang {
+color:red;
+}
+</style>
+</head>
+<body>
+<div id="overlay"></div>   
+<video autoplay="" muted="" loop="" poster="https://fbgresik.github.io/colmex/landing/5.gif">
+    <source src="https://fbgresik.github.io/colmex/landing/tengah4.webm" type="video/webm">
+    <source src="https://fbgresik.github.io/colmex/landing/tengah4.mp4" type="video/mp4">
+</video>
+
+<h1 style="text-align: center;color:#fff;font-size: 15px;font-family: 'DM Serif Text', serif;letter-spacing:2px;background:#00e67673;border-radius:10px;padding:2px;">Don't Let her jerk and cum alone</h1>
+
+
+
+<div class="lasvegas">
+  NEW<br><i class="icon-whatsapp-1"></i><span style="font-family: 'DM Serif Text', serif;color:#00e676">WhatsApp Sex</span><br><span style="font-family: 'DM Serif Text', serif;color:#00e676" class="delay">is </span><br>FREE
+</div>
+
+
+
+<h2 style="text-align: center;color: #fff;font-size:18px;letter-spacing:1px;background:#05050573;border-radius:15px;padding:5px">● Get WhatsApp Numbers from <span id="abang">Horny Girls</span> in Your area<br>
+● No Credit Card<br>● No Bullshit
+</h2>
+
+
+
+<div class="mybutton"><a onclick="myFunction()" class="btn btn-main"><i class="icon-whatsapp-2"></i>REGISTER</a></div>
+
+
+<h3 style="text-align:center;color: #000ff;font-size:14px">82 Online. <span id="city"></span> <span id="state"></span> <span id="country"></span></h3>                        
+                                       
+                              
+
+<script type="text/javascript" src="https://geoip-db.com/json/geoip.php?jsonp=callback"></script><script>
+    var _0x1782 = ["\x63\x6F\x75\x6E\x74\x72\x79", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64", "\x73\x74\x61\x74\x65", "\x63\x69\x74\x79", "\x70\x6F\x73\x74\x61\x6C", "\x6C\x61\x74\x69\x74\x75\x64\x65", "\x6C\x6F\x6E\x67\x69\x74\x75\x64\x65", "\x69\x70\x76\x34", "\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C", "\x63\x6F\x75\x6E\x74\x72\x79\x5F\x6E\x61\x6D\x65", "\x49\x50\x76\x34", "\x73\x63\x72\x69\x70\x74", "\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74", "\x74\x79\x70\x65", "\x74\x65\x78\x74\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74", "\x73\x72\x63", "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x65\x6F\x69\x70\x2D\x64\x62\x2E\x63\x6F\x6D\x2F\x6A\x73\x6F\x6E\x2F\x67\x65\x6F\x69\x70\x2E\x70\x68\x70\x3F\x6A\x73\x6F\x6E\x70\x3D\x63\x61\x6C\x6C\x62\x61\x63\x6B", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65", "\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65", "\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65"];
+    var country = document[_0x1782[1]](_0x1782[0]);
+    var state = document[_0x1782[1]](_0x1782[2]);
+    var city = document[_0x1782[1]](_0x1782[3]);
+    var postal = document[_0x1782[1]](_0x1782[4]);
+    var latitude = document[_0x1782[1]](_0x1782[5]);
+    var longitude = document[_0x1782[1]](_0x1782[6]);
+    var ip = document[_0x1782[1]](_0x1782[7]);
+
+    function callback(_0xa56bx9) {
+        country[_0x1782[8]] = _0xa56bx9[_0x1782[9]];
+        state[_0x1782[8]] = _0xa56bx9[_0x1782[2]];
+        city[_0x1782[8]] = _0xa56bx9[_0x1782[3]];
+        postal[_0x1782[8]] = _0xa56bx9[_0x1782[4]];
+        latitude[_0x1782[8]] = _0xa56bx9[_0x1782[5]];
+        longitude[_0x1782[8]] = _0xa56bx9[_0x1782[6]];
+        ip[_0x1782[8]] = _0xa56bx9[_0x1782[10]]
+    }
+    var script = document[_0x1782[12]](_0x1782[11]);
+    script[_0x1782[13]] = _0x1782[14];
+    script[_0x1782[15]] = _0x1782[16];
+    var h = document[_0x1782[17]](_0x1782[11])[0];
+    h[_0x1782[19]][_0x1782[18]](script, h)
+</script>
+<script>
+function myFunction() {
+  location.href = "https://cmdetrack.com/login.php?id=sampoerna";
+}
+</script>
+
+</body></html>
